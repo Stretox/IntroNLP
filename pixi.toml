@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Stretox <stretoxcontact@gmail.com>"]
+channels = ['conda-forge']
+name = "IntroNLP"
+platforms = ['linux-64']
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.14.*"
+pip = ">=26.2.2,<27"
+ipykernel = ">=7.4.0,<8"
+pandas = ">=3.1.1,<4"
+scikit-learn = ">=1.9.1,<2"
