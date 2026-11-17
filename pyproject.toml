@@ -1,0 +1,5 @@
+[tool.ruff]
+src = ["src"]
+line-length = 120
+output-format = "full"
+# extend-select = ["D"] # Requires docstrings for public functions. Not really needed for this
