@@ -3,3 +3,13 @@ src = ["src"]
 line-length = 120
 output-format = "full"
 # extend-select = ["D"] # Requires docstrings for public functions. Not really needed for this
+[project]
+name = "IntroNLP"
+version = "0.1.0"
+authors = [{ name = "Stretox", email = "stretoxcontact@gmail.com" }]
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "ipykernel>=7.4.0,<8",
+    "pandas>=3.1.1,<4",
+    "scikit-learn>=1.9.1,<2",
+]
